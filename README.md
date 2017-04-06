@@ -21,5 +21,5 @@ The CIS hardening benchmark help to minimize the attack surface of a default ins
 
 ## Usage
 
-# License?
+# License
 GNU Affero General Public License v3
