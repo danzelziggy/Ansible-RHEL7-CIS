@@ -1,1 +1,5 @@
+---
+# Modify the defaults below per your environment and server's role.
 
+# Set desired SELinux policy. Default install state is 'targeted'.
+rhel7-cis_selinux_policy: targeted
