@@ -1,7 +1,1 @@
 ---
-- name: "SCORED | 2.2.10 | Ensure HTTP server is not enabled"
-  service:
-      name: httpd
-      state: stopped
-      enabled: no
-  when: rhel7-cis_httpd-server == false
