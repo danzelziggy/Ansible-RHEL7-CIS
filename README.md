@@ -9,12 +9,13 @@ A copy of the benchmarks can be retrieved from the Center for Internet Security'
 https://benchmarks.cisecurity.org/
 
 # Why?
-The CIS hardening benchmarks help to minimize the default install attack surfce of a RHEL/CentOS server.
+The CIS hardening benchmark help to minimize the attack surface of a default install of RHEL/CentOS.
 
 # How?
 
 ## Requirements
 Ansible v1.9+
+RHEL/CentOS 7.X+
 
 ## Configuration
 
