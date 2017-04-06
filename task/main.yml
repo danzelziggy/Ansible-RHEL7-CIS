@@ -1,1 +1,42 @@
+---
+- name: Check Ansible version
+  fail:
+      msg: "You must use ansible 2.2 or greater"
+  when: not ansible_version.full | version_compare('2.2', '>=')
 
+- name: Check OS version and family
+  fail:
+      msg: "This role can only be run agaist RHEL/CentOS 7. {{ ansible_distribution }} {{ ansible_distribution_major_version }} is not supported."
+  when:
+      - ansible_os_family == 'RedHat'
+      - ansible_distribution_major_version | version_compare('7', '!=')
+
+- include: pre.yml
+  become: yes
+
+- include: 1-initial.yml
+  become: yes
+  when: rhel7-cis_1-initial
+
+- include: 2-services.yml
+  become: yes
+  when: rhel7-cis_2-services
+
+- include: 3-network.yml
+  become: yes
+  when: rhel7-cis_ 3-network
+
+- include: 4-logging.yml
+  become: yes
+  when: rhel7-cis_4-logging
+
+- include: 5-access.yml
+  become: yes
+  when: rhel7-cis_5-access
+
+- include: 6-maintenance.yml
+  become: yes
+  when: rhel7-cis_6-maintenance
+
+- include: post.yml
+  become: yes
