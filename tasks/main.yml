@@ -18,25 +18,25 @@
   become: yes
   when: rhel7-cis_1-initial
 
-#- include: 2-services.yml
-#  become: yes
-#  when: rhel7-cis_2-services
+- include: 2-services.yml
+  become: yes
+  when: rhel7-cis_2-services
 
-#- include: 3-network.yml
-#  become: yes
-#  when: rhel7-cis_ 3-network
+- include: 3-network.yml
+  become: yes
+  when: rhel7-cis_3-network
 
-#- include: 4-logging.yml
-#  become: yes
-#  when: rhel7-cis_4-logging
+- include: 4-logging.yml
+  become: yes
+  when: rhel7-cis_4-logging
 
-#- include: 5-access.yml
-#  become: yes
-#  when: rhel7-cis_5-access
+- include: 5-access.yml
+  become: yes
+  when: rhel7-cis_5-access
 
-#- include: 6-maintenance.yml
-#  become: yes
-#  when: rhel7-cis_6-maintenance
+- include: 6-maintenance.yml
+  become: yes
+  when: rhel7-cis_6-maintenance
 
-#- include: post.yml
-#  become: yes
+- include: post.yml
+  become: yes
