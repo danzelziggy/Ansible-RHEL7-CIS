@@ -16,7 +16,7 @@
 
 - include: 1-initial.yml
   become: yes
-  when: rhel7-cis_1-initial
+#  when: rhel7-cis_1-initial
 
 #- include: 2-services.yml
 #  become: yes
