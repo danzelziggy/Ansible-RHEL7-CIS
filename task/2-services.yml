@@ -4,4 +4,4 @@
       name: httpd
       state: stopped
       enabled: no
-  when: rhel7cis_httpd_server == false and httpd_service_status.stdout == "loaded"
+  when: rhel7-cis_httpd-server == false
