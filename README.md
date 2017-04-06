@@ -14,7 +14,7 @@ The CIS hardening benchmark help to minimize the attack surface of a default ins
 # How?
 
 ## Requirements
-* Ansible v2.1+
+* Ansible v2.2+
 * RHEL/CentOS 7.X+
 
 ## Configuration
