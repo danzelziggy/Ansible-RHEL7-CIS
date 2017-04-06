@@ -13,5 +13,11 @@ The CIS hardening benchmarks help to minimize the default install attack surfce 
 
 # How?
 
+## Requirements
+
+## Configuration
+
+## Usage
+
 # License?
 GNU Affero General Public License v3
