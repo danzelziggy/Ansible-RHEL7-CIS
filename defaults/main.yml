@@ -3,4 +3,6 @@
 
 # Set desired SELinux policy. Default install state is 'targeted'.
 rhel7-cis_selinux-policy: targeted
+
+# Set whatever services you use on your server to true.
 rhel7-cis_httpd-server: false
