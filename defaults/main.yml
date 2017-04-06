@@ -3,6 +3,14 @@
 # Modify the defaults below per your environment and server's role.#
 ####################################################################
 
+# Specifcy which sections of the CIS benchmark to run.
+rhel7-cis_1-initial: true
+rhel7-cis_2-services: true
+rhel7-cis_3-network: true
+rhel7-cis_4-logging: true
+rhel7-cis_5-access: true
+rhel7-cis_6-maintenance: true
+
 # Set desired SELinux policy. Default install state is 'targeted'.
 rhel7-cis_selinux-policy: targeted
 
