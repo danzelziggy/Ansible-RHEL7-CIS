@@ -14,6 +14,7 @@ The CIS hardening benchmarks help to minimize the default install attack surfce 
 # How?
 
 ## Requirements
+Ansible v1.9+
 
 ## Configuration
 
